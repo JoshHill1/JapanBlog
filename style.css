@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --JapanWhite: #EAEAEA;
+  --JapanRed: rgb(184, 0, 28);
+
+  --headerHeight: 50px
+}
+
+body {
+  background-color: var(--JapanWhite);
+  font-family: sans-serif;
+  background-image: url(washi.webp);
+  overflow-x: hidden;
+
+  font-size: 20px
+}
+
+/* main {
+  margin: 0px 15% 30px;
+  background-color: var(--JapanWhite);
+  padding: 0 10px;
+} */
+
+img {
+width: 15%;
+height: auto;
+padding: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--JapanRed);
+  width: 100%;
+  height: var(--headerHeight);
+  backdrop-filter: blur(40px);
+  z-index: 100;
+}
+
+header h1 {
+  color: var(--JapanWhite);
+  padding: 5px 7px;
+  margin-left: 20px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+header li {
+  margin: 5px 10px;
+  padding: 0 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--JapanWhite);
+  font-size: 1.15em;
+  padding: 3px 10px;
+  border-radius: 7px;
+  transition: 0.2s ease;
+}
+header a:hover {
+  background-color: var(--JapanWhite);
+  color: var(--JapanRed);
+}
+/* End of header */
+
+
+
+#start {
+  padding: var(--headerHeight) 15% 0;
+  background-color: var(--JapanWhite)
+}
+#stillWhite {
+  padding: 0px 15% 15px;
+  background-color: var(--JapanWhite)
+}
+
+
+
+/* Tokyo section */
+#tokyo h1 {
+  padding-top: var(--headerHeight);
+  text-align: center;
+  font-size: 2em;
+  /* margin: 0px 15% 30px; */
+}
+#specBG {
+  margin: 0px 10%;
+  background-color: var(--JapanWhite);
+  padding: 0 10px 0 0;
+  display: flex;
+}
+
+#firstSubwayPic {
+  height: 420px;
+  width: auto;
+}
+
+#MUJI {
+  background-color: #901C1F;
+  color: #FFF;
+  /* padding: 0 0 20px 0; */
+}
+#MUJI p {
+  line-height: 1.3em;
+  padding: 0 0 5px 0;
+}
+
+#MujiInWritingPic {
+  position: relative;
+  width: 100vw;
+  padding: 222px 0;
+}
+
+.padding {
+  padding: 0 10%;
+}
+
+#MujiMarketPictures img {
+  width: 49.75%;
+  height: auto;
+  padding: 0;
+}
+
+#mujiIcecream {
+  width: fit-content;
+  background-color: var(--JapanWhite);
+  color: #000;
+  padding: 10px;
+  position: relative;
+  top: 250px;
+  /* bottom: 0px; */
+  z-index: 1;
+  margin: 0% 10% 23.5%;
+}
+
+#mujiIcecream video {
+  float: left;
+  padding: 0 5px 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This Is Where All Of The Images Are Stored */
+#whyDidntNthOfTypeOneWork {
+  margin-top: calc(var(--headerHeight) + 18px);
+  width: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%; 
+}
+.width50percentered {
+  width: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+#specBG #pokemonWC {
+  padding: 0 10px 0 0;
+  height: 600px;
+  width: auto;
+}
+
+#mujiBottles {
+  padding: 0;
+  width: 100%;
+  position: absolute;
+}
+
+#mujiIcecream img {
+  height: 500px;
+  width: auto;
+}
