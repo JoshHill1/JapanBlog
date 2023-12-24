@@ -19,6 +19,11 @@ body {
   font-size: 20px
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+
 /* main {
   margin: 0px 15% 30px;
   background-color: var(--JapanWhite);
@@ -141,22 +146,54 @@ header a:hover {
   padding: 0;
 }
 
+#bottlesNcream {
+  background-image: url(./images/Day1Tokyo/MujiRedGreenBottles.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; /* This ensures that the div covers at least the full viewport height */
+  width: 100%;
+  overflow: hidden;
+}
 #mujiIcecream {
   width: fit-content;
+  min-height: 670px;
   background-color: var(--JapanWhite);
   color: #000;
   padding: 10px;
   position: relative;
-  top: 250px;
-  /* bottom: 0px; */
   z-index: 1;
-  margin: 0% 10% 23.5%;
+  margin: 17% 10%;
+  background-color: var(--JapanWhite);
 }
 
 #mujiIcecream video {
   float: left;
   padding: 0 5px 5px 0;
 }
+
+#sevenEleven {
+  background-image: url(./images/Day1Tokyo/SevenElevenGPT1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sevenElContent {
+  background-color: var(--JapanWhite);
+  margin: 0 10%;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -206,4 +243,14 @@ header a:hover {
 #mujiIcecream img {
   height: 500px;
   width: auto;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  background-color: var(--JapanRed);
+  color: var(--JapanWhite)
 }
