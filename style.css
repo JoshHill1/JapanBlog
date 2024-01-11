@@ -185,16 +185,36 @@ header a:hover {
   padding: 10px;
 }
 
+/* END OF DAY ONE */
 
 
 
 
 
+/* DAY TWO */
 
+/* #dayTwo {
+} */
+#D2Gradient {
+  padding: 0 5%;
+  background: linear-gradient(#3E6B87 3px, #B9B7A9 43px, #D6C0A0, #D0AB85);
+}
 
+#pubVending {
+  width: 600px;
+  float: right;
+}
 
+#TamagoyakiTsukijiShoro {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr
+}
 
-
+#D2Starbucks {
+  color: #EAEAEA;
+  padding: 0 5%;
+  background-color: #006439;
+}
 
 
 
@@ -244,6 +264,16 @@ header a:hover {
   height: 500px;
   width: auto;
 }
+
+#tsujikiMarket img {
+  height: 320px;
+  width: auto;
+}
+
+
+
+
+
 
 
 
